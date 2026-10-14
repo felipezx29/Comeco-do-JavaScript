@@ -100,7 +100,7 @@ if (idadeAtividade <= 11){
 
 const pontosCliente = 10000
 const mesesSendoCliente = 25
-const anosSendoClientes = MesesSendoCliente / 12
+const anosSendoClientes = mesesSendoCliente / 12
 
 if(pontosCliente <= 99){
     console.log("Rank bronze");
