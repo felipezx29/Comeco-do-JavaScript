@@ -99,7 +99,7 @@ if (idadeAtividade <= 11){
 //Atividade 2 
 
 const pontosCliente = 10000
-const MesesSendoCliente = 25
+const mesesSendoCliente = 25
 const anosSendoClientes = MesesSendoCliente / 12
 
 if(pontosCliente <= 99){
