@@ -1,6 +1,6 @@
 
 
-// atividade sobre a frase no console
+// atividade sobre a frase no console 7/10
 
 const nome = "Felipe";
 const idade1 = 15;
@@ -39,7 +39,7 @@ console.log(temDesconto);
 console.log(freteGratis);
 console.log(resultado);
 
-// Introdução aos comandos condicionais
+// Introdução aos comandos condicionais 14/10
 
 const idade2 = 15;
 
@@ -116,14 +116,46 @@ if(pontosCliente <= 99){
 }
 
 
+// Aula sobre loops 21/10
+
+// usando for:
+
+for(let i = 1; i <= 10; i++) {
+    if (i % 2 > 0){
+        console.log(i)
+    }
+}
 
 
+// for( let number = 5; number <= 50; number++ ) {
+//     if(number % 5 == 0){
+//         console.log(number)
+
+//     }
+// }
 
 
+// let numeroBase = 3
+// for ( let numeroMultiplicador = 1; numeroMultiplicador <= 10; numeroMultiplicador++){
+//     console.log(`${numeroBase} X ${numeroMultiplicador} = ${numeroBase * numeroMultiplicador}`)
+// }
+
+for ( let i = 1; i <= 10; i++){
+    for( let j = 1; j <= 10; j++)
+      console.log(`${i} X ${j} = ${i * j}`)  
+}
+
+// usando while:
+
+let tentativas = 3 
+while ( tentativas > 0){
+    console.log(`Você tem ${tentativas} tentativas restantes`)
+    tentativas--;
+}
 
 
-
-
-
+do {console.log(`Você tem ${tentativas} tentativas restantes`)
+    tentativas--;
+} while ( tentativas > 0)
 
 
